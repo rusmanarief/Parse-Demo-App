@@ -1,21 +1,7 @@
 #import "ParseStarterProjectViewController.h"
 #import <Parse/Parse.h>
 
-//@interface ParseStarterProjectViewController
-// {
-//    UIButton *saveButton;
-//    UIButton *downloadButton;
-//    UIButton *downloadBackgroundButton;
-//    UITextView *outputText;
-// }
-//@end
-
 @implementation ParseStarterProjectViewController
-
-//@synthesize saveButton;
-//@synthesize downloadButton;
-//@synthesize downloadBackgroundButton;
-//@synthesize outputText;
 
 -(IBAction)saveToCloud {
     // do something
