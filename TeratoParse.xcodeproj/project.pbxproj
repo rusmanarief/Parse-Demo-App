@@ -34,6 +34,15 @@
 		C4C51B571613CE0800959FDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B541613CE0800959FDC /* Default.png */; };
 		C4C51B581613CE0800959FDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B551613CE0800959FDC /* Default-568h@2x.png */; };
 		C4C51B591613CE0800959FDC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B561613CE0800959FDC /* Default@2x.png */; };
+		D355BBCF16C090C800E1A741 /* DefaultSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D355BBCD16C090C800E1A741 /* DefaultSettingsViewController.m */; };
+		D355BBD016C090C800E1A741 /* DefaultSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D355BBCE16C090C800E1A741 /* DefaultSettingsViewController.xib */; };
+		D355BBDB16C0A65400E1A741 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D355BBDA16C0A65400E1A741 /* DemoTableViewController.m */; };
+		D355BBDF16C0AC3700E1A741 /* SuperVillainQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D355BBDD16C0AC3700E1A741 /* SuperVillainQueryViewController.m */; };
+		D355BBE016C0AC3700E1A741 /* SuperVillainQueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D355BBDE16C0AC3700E1A741 /* SuperVillainQueryViewController.xib */; };
+		D355BBE416C0B27900E1A741 /* SuperVillainInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D355BBE216C0B27900E1A741 /* SuperVillainInputViewController.m */; };
+		D355BBE516C0B27900E1A741 /* SuperVillainInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D355BBE316C0B27900E1A741 /* SuperVillainInputViewController.xib */; };
+		D355BBEC16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D355BBEA16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.m */; };
+		D355BBED16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D355BBEB16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +78,20 @@
 		C4C51B541613CE0800959FDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C4C51B551613CE0800959FDC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C4C51B561613CE0800959FDC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D355BBCC16C090C800E1A741 /* DefaultSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultSettingsViewController.h; sourceTree = "<group>"; };
+		D355BBCD16C090C800E1A741 /* DefaultSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultSettingsViewController.m; sourceTree = "<group>"; };
+		D355BBCE16C090C800E1A741 /* DefaultSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultSettingsViewController.xib; sourceTree = "<group>"; };
+		D355BBD916C0A65400E1A741 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		D355BBDA16C0A65400E1A741 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		D355BBDC16C0AC3700E1A741 /* SuperVillainQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperVillainQueryViewController.h; sourceTree = "<group>"; };
+		D355BBDD16C0AC3700E1A741 /* SuperVillainQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperVillainQueryViewController.m; sourceTree = "<group>"; };
+		D355BBDE16C0AC3700E1A741 /* SuperVillainQueryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperVillainQueryViewController.xib; sourceTree = "<group>"; };
+		D355BBE116C0B27900E1A741 /* SuperVillainInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperVillainInputViewController.h; sourceTree = "<group>"; };
+		D355BBE216C0B27900E1A741 /* SuperVillainInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperVillainInputViewController.m; sourceTree = "<group>"; };
+		D355BBE316C0B27900E1A741 /* SuperVillainInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperVillainInputViewController.xib; sourceTree = "<group>"; };
+		D355BBE916C0C19A00E1A741 /* SuperVillainPickCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperVillainPickCategoryViewController.h; sourceTree = "<group>"; };
+		D355BBEA16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperVillainPickCategoryViewController.m; sourceTree = "<group>"; };
+		D355BBEB16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperVillainPickCategoryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,10 +168,12 @@
 			children = (
 				09ABC08013A1D52D009C3FCF /* ParseStarterProjectAppDelegate.h */,
 				09ABC08113A1D52D009C3FCF /* ParseStarterProjectAppDelegate.m */,
+				D355BBD916C0A65400E1A741 /* DemoTableViewController.h */,
+				D355BBDA16C0A65400E1A741 /* DemoTableViewController.m */,
 				09ABC08313A1D52D009C3FCF /* MainWindow.xib */,
-				09ABC08613A1D52E009C3FCF /* ParseStarterProjectViewController.h */,
-				09ABC08713A1D52E009C3FCF /* ParseStarterProjectViewController.m */,
-				09ABC08913A1D52E009C3FCF /* ParseStarterProjectViewController.xib */,
+				D355BBD316C0A50E00E1A741 /* Query */,
+				D355BBD116C0A4D700E1A741 /* SaveObject */,
+				D355BBD216C0A4F600E1A741 /* LogInSignUp */,
 				09ABC07813A1D52D009C3FCF /* Supporting Files */,
 			);
 			path = ParseStarterProject;
@@ -167,6 +192,42 @@
 				09ABC07E13A1D52D009C3FCF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D355BBD116C0A4D700E1A741 /* SaveObject */ = {
+			isa = PBXGroup;
+			children = (
+				09ABC08613A1D52E009C3FCF /* ParseStarterProjectViewController.h */,
+				09ABC08713A1D52E009C3FCF /* ParseStarterProjectViewController.m */,
+				09ABC08913A1D52E009C3FCF /* ParseStarterProjectViewController.xib */,
+			);
+			name = SaveObject;
+			sourceTree = "<group>";
+		};
+		D355BBD216C0A4F600E1A741 /* LogInSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D355BBCC16C090C800E1A741 /* DefaultSettingsViewController.h */,
+				D355BBCD16C090C800E1A741 /* DefaultSettingsViewController.m */,
+				D355BBCE16C090C800E1A741 /* DefaultSettingsViewController.xib */,
+			);
+			name = LogInSignUp;
+			sourceTree = "<group>";
+		};
+		D355BBD316C0A50E00E1A741 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				D355BBDC16C0AC3700E1A741 /* SuperVillainQueryViewController.h */,
+				D355BBDD16C0AC3700E1A741 /* SuperVillainQueryViewController.m */,
+				D355BBE116C0B27900E1A741 /* SuperVillainInputViewController.h */,
+				D355BBE216C0B27900E1A741 /* SuperVillainInputViewController.m */,
+				D355BBE916C0C19A00E1A741 /* SuperVillainPickCategoryViewController.h */,
+				D355BBEA16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.m */,
+				D355BBDE16C0AC3700E1A741 /* SuperVillainQueryViewController.xib */,
+				D355BBE316C0B27900E1A741 /* SuperVillainInputViewController.xib */,
+				D355BBEB16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.xib */,
+			);
+			name = Query;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +287,10 @@
 				C4C51B571613CE0800959FDC /* Default.png in Resources */,
 				C4C51B581613CE0800959FDC /* Default-568h@2x.png in Resources */,
 				C4C51B591613CE0800959FDC /* Default@2x.png in Resources */,
+				D355BBD016C090C800E1A741 /* DefaultSettingsViewController.xib in Resources */,
+				D355BBE016C0AC3700E1A741 /* SuperVillainQueryViewController.xib in Resources */,
+				D355BBE516C0B27900E1A741 /* SuperVillainInputViewController.xib in Resources */,
+				D355BBED16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +304,11 @@
 				09ABC07F13A1D52D009C3FCF /* main.m in Sources */,
 				09ABC08213A1D52D009C3FCF /* ParseStarterProjectAppDelegate.m in Sources */,
 				09ABC08813A1D52E009C3FCF /* ParseStarterProjectViewController.m in Sources */,
+				D355BBCF16C090C800E1A741 /* DefaultSettingsViewController.m in Sources */,
+				D355BBDB16C0A65400E1A741 /* DemoTableViewController.m in Sources */,
+				D355BBDF16C0AC3700E1A741 /* SuperVillainQueryViewController.m in Sources */,
+				D355BBE416C0B27900E1A741 /* SuperVillainInputViewController.m in Sources */,
+				D355BBEC16C0C19A00E1A741 /* SuperVillainPickCategoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

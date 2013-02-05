@@ -1,6 +1,6 @@
 #import <Parse/Parse.h>
 #import "ParseStarterProjectAppDelegate.h"
-#import "ParseStarterProjectViewController.h"
+#import "DemoTableViewController.h"
 
 @implementation ParseStarterProjectAppDelegate
 
@@ -17,7 +17,7 @@
     // [PFFacebookUtils initializeWithApplicationId:@"your_facebook_app_id"];
     // ****************************************************************************
 
-    [PFUser enableAutomaticUser];
+    //[PFUser enableAutomaticUser];
     
     PFACL *defaultACL = [PFACL ACL];
 
@@ -28,7 +28,7 @@
     
     // Override point for customization after application launch.
      
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[DemoTableViewController alloc] init]];
     [self.window makeKeyAndVisible];
     
     [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
