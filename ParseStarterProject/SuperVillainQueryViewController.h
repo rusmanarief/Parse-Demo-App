@@ -10,4 +10,6 @@
 
 @interface SuperVillainQueryViewController : PFQueryTableViewController
 
+@property (strong, nonatomic) NSString *category;
+
 @end
