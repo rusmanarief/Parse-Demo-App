@@ -27,7 +27,7 @@ typedef enum {
 @implementation DemoTableViewController
 
 - (void)viewDidLoad {
-    self.title = @"Sign Up and Log In Demo";
+    self.title = @"Parse Demo";
 }
 
 
