@@ -119,7 +119,7 @@
     query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
 
-    [query whereKey:@"category" equalTo:self.category];
+    [query whereKey:@"categoryd" equalTo:self.category];
 
     return query;
 }

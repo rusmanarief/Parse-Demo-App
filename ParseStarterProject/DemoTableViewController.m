@@ -21,6 +21,7 @@ typedef enum {
     DemoTableViewRowLogInSignUp = 0,
     DemoTableViewRowSaveObject,
     DemoTableViewRowSuperVillain,
+    DemoTableViewRowAdvanceSV,
     DemoTableViewNumberOfRows
 } DemoTableViewRow;
 
@@ -81,6 +82,9 @@ typedef enum {
         case DemoTableViewRowSuperVillain:
             cellText = @"SuperVillain";
             break;
+        case DemoTableViewRowAdvanceSV:
+            cellText = @"Advance SuperVillain";
+            break;
         case DemoTableViewNumberOfRows: // never reached.
         default:
             cellText = @"Unknown";
@@ -101,6 +105,9 @@ typedef enum {
         case DemoTableViewRowSuperVillain:
             cellText = @"trying out variety of query on super villains";
             break;
+        case DemoTableViewRowAdvanceSV:
+            cellText = @"super villains with create and edit";
+            break;
         case DemoTableViewNumberOfRows: // never reached.
         default:
             cellText = @"Unknown";
@@ -119,6 +126,9 @@ typedef enum {
             nextViewController = [[ParseStarterProjectViewController alloc] init];
             break;
         case DemoTableViewRowSuperVillain:
+            nextViewController = [[SuperVillainInputViewController alloc] init];
+            break;
+        case DemoTableViewRowAdvanceSV:
             nextViewController = [[SuperVillainInputViewController alloc] init];
             break;
         case DemoTableViewNumberOfRows: // never reached.
